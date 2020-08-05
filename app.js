@@ -244,11 +244,28 @@ $(".navigation__mobile").click(function(){
         $(".navigation__mobile__menu").addClass("navigation__mobile__menu__out");
         $(".navigation__mobile__inner").removeClass("open");
     }
-
-
-        
-
-    
-
 })
+
+$(document).ready(function(){
+    $('.works__banner__slider').slick();
+  });
+
+function infoMobile(){
+    if($(".works__item__over__mobile").css("display")=="none"){
+        $(".works__item__over__mobile").css({"display":"block"});
+        $(".info__content").fadeIn(2000);
+        $(".cross_info").css({"display":"block"});
+        $('.works__banner__slider').slickRemove();
+    } 
+        
+}
+
+function crossInfoMobile(){
+    if($(".works__item__over__mobile").css("display")=="block"){
+        $(".works__item__over__mobile").css({"display":"none"});
+        $(".info__content").hide();
+        $(".cross_info").css({"display":"none"});
+    }  
+        
+}
 

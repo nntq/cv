@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Page Title</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="slick.css">
     <link rel="stylesheet" href="fonts.css">
     <link rel="stylesheet" href="style-mobile.css">
     <link rel="stylesheet" type="text/css" media="screen" href="./style.css" />
@@ -14,7 +15,7 @@
 
 <body>
     <section class="first__screen">
-        <div class="hr">  
+        <div class="hr">
 
         </div>
         <div class="navigation__mobile__menu">
@@ -46,9 +47,9 @@
 
                 </div>
                 <div class="navigation__mobile__inner">
-                        <div class="navigation__mobile">
+                    <div class="navigation__mobile">
 
-                            </div>
+                    </div>
                 </div>
                 <div class="navigation">
                     <nav>
@@ -392,11 +393,77 @@
                 <h3>works</h3>
             </div>
 
-            <div class="works__banner__inner__mobile">
-                <div class="works__content__mobile">
+            <div class="works__banner__slider">
+                <div class="works__item__mobile" id="first_item_mobile">
+                    <div class="info-btn">
+                        <span class="info" onclick="infoMobile()"></span>
+                    </div>
+                    <div class="works__mobile__logo">
+                        <span>LO</span>
+                        <span>GO</span>
+                    </div>
+                    <div class="works__item__over__mobile" id="first_over_mobile">
+                        <div class="cross-btn">
+                            <span class="cross_info" onclick="crossInfoMobile()"></span>
+                        </div>
+                        <div class="info__content">
+                            <h3>Lorem, ipsum dolor.</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus consequuntur unde,
+                                vitae
+                                iure numquam doloribus dolore ex voluptatum.</p>
+                        </div>
 
+                    </div>
+                </div>
+                <div class="works__item__mobile" id="second_item_mobile">
+                    <div class="info-btn">
+                        <span class="info" onclick="infoMobile()"></span>
+                    </div>
+                    <div class="works__mobile__logo__trip">
+                        <span>E-TRIP</span>
+                        <div class="works__logo__img">
+
+                        </div>
+                    </div>
+                    <div class="works__item__over__mobile" id="second_over_mobile">
+                        <div class="cross-btn">
+                            <span class="cross_info" onclick="crossInfoMobile()"></span>
+                        </div>
+                        <div class="info__content">
+                            <h3>Lorem, ipsum dolor.</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus consequuntur unde,
+                                vitae
+                                iure numquam doloribus dolore ex voluptatum.</p>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="works__item__mobile" id="third_item_mobile">
+                    <div class="info-btn">
+                        <span class="info" onclick="infoMobile()"></span>
+                    </div>
+                    <div class="works__mobile__logo__mark">
+                        <span>Mark</span>
+                        <span>/Landing</span>
+                    </div>
+                    <div class="works__item__over__mobile" id="third_over_mobile">
+                        <div class="cross-btn">
+                            <span class="cross_info" onclick="crossInfoMobile()"></span>
+                        </div>
+                        <div class="info__content">
+                            <h3>Lorem, ipsum dolor.</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus consequuntur unde,
+                                vitae
+                                iure numquam doloribus dolore ex voluptatum.</p>
+                        </div>
+
+                    </div>
                 </div>
             </div>
+
+
+
+
 
 
         </div>
@@ -438,7 +505,7 @@
         </div>
     </section>
     <section class="social">
-<!-- SOCIAL MOBILE -->
+        <!-- SOCIAL MOBILE -->
         <div class="social__inner__mobile">
             <div class="social__title__mobile">
                 <h3>contact</h3>
@@ -494,10 +561,10 @@
 
     </section>
 </body>
-
 <script src="https://use.fontawesome.com/acc7edc6a5.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <script src="https://kit.fontawesome.com/9c145a1aff.js" crossorigin="anonymous"></script>
+<script src="slick.min.js"></script>
 <script src="app.js"></script>
 
 </html>
