@@ -269,3 +269,199 @@ function crossInfoMobile(){
         
 }
 
+function skillsInfo(a){
+    $(".skills__mobile__info__inner").removeClass("skills__mobile__slideDown")
+    // if(($(".skills__mobile__info__inner").hasClass("skills__mobile__slideUp"))==0)
+    //     $(".skills__mobile__info__inner").addClass("skills__mobile__slideUp")
+    // else{
+    //     $(".skills__mobile__info__inner").addClass("skills__mobile__slideDown")
+    //     $(".skills__mobile__info__inner").removeClass("skills__mobile__slideUp")
+    // }
+    if(a==1){
+        if($(".two").hasClass("skills__mobile__slideUp")){
+            $(".two").addClass("skills__mobile__slideDown")
+            $(".two").removeClass("skills__mobile__slideUp")
+            $(".cssM").fadeOut(1000)
+        }
+        if($(".three").hasClass("skills__mobile__slideUp")){
+            $(".three").addClass("skills__mobile__slideDown")
+            $(".three").removeClass("skills__mobile__slideUp")
+            $(".jsM").fadeOut(1000)
+        }
+        if($(".four").hasClass("skills__mobile__slideUp")){
+            $(".four").addClass("skills__mobile__slideDown")
+            $(".four").removeClass("skills__mobile__slideUp")
+            $(".bootstrapM").fadeOut(1000)
+        }
+        if($(".five").hasClass("skills__mobile__slideUp")){
+            $(".five").addClass("skills__mobile__slideDown")
+            $(".five").removeClass("skills__mobile__slideUp")
+            $(".cM").fadeOut(1000)
+        }
+        if($(".one").hasClass("skills__mobile__slideUp")){
+            $(".one").addClass("skills__mobile__slideDown")
+            $(".one").removeClass("skills__mobile__slideUp")
+            $(".htmlM").fadeOut(1000)
+        }else{
+            $(".one").addClass("skills__mobile__slideUp")
+            $(".htmlM").fadeIn(1000)
+        }
+    }
+
+
+if(a==2){
+    if($(".one").hasClass("skills__mobile__slideUp")){
+        $(".one").addClass("skills__mobile__slideDown")
+        $(".one").removeClass("skills__mobile__slideUp")
+        $(".htmlM").fadeOut(1000)
+    }
+    if($(".three").hasClass("skills__mobile__slideUp")){
+        $(".three").addClass("skills__mobile__slideDown")
+        $(".three").removeClass("skills__mobile__slideUp")
+        $(".jsM").fadeOut(1000)
+    }
+    if($(".four").hasClass("skills__mobile__slideUp")){
+        $(".four").addClass("skills__mobile__slideDown")
+        $(".four").removeClass("skills__mobile__slideUp")
+        $(".bootstrapM").fadeOut(1000)
+    }
+    if($(".five").hasClass("skills__mobile__slideUp")){
+        $(".five").addClass("skills__mobile__slideDown")
+        $(".five").removeClass("skills__mobile__slideUp")
+        $(".cM").fadeOut(1000)
+    }
+    if($(".two").hasClass("skills__mobile__slideUp")){
+        $(".two").addClass("skills__mobile__slideDown")
+        $(".two").removeClass("skills__mobile__slideUp")
+        $(".cssM").fadeOut(1000)
+    }else{
+        $(".two").addClass("skills__mobile__slideUp")
+        $(".cssM").fadeIn(1000)
+    }
+}
+
+if(a==3){
+    if($(".one").hasClass("skills__mobile__slideUp")){
+        $(".one").addClass("skills__mobile__slideDown")
+        $(".one").removeClass("skills__mobile__slideUp")
+        $(".htmlM").fadeOut(1000)
+    }
+    if($(".two").hasClass("skills__mobile__slideUp")){
+        $(".two").addClass("skills__mobile__slideDown")
+        $(".two").removeClass("skills__mobile__slideUp")
+        $(".cssM").fadeOut(1000)
+    }
+    if($(".four").hasClass("skills__mobile__slideUp")){
+        $(".four").addClass("skills__mobile__slideDown")
+        $(".four").removeClass("skills__mobile__slideUp")
+        $(".bootstrapM").fadeOut(1000)
+    }
+    if($(".five").hasClass("skills__mobile__slideUp")){
+        $(".five").addClass("skills__mobile__slideDown")
+        $(".five").removeClass("skills__mobile__slideUp")
+        $(".cM").fadeOut(1000)
+    }
+    if($(".three").hasClass("skills__mobile__slideUp")){
+        $(".three").addClass("skills__mobile__slideDown")
+        $(".three").removeClass("skills__mobile__slideUp")
+        $(".jsM").fadeOut(1000)
+    }else{
+        $(".three").addClass("skills__mobile__slideUp")
+        $(".jsM").fadeIn(1000)
+    }
+}
+
+if(a==4){
+    if($(".one").hasClass("skills__mobile__slideUp")){
+        $(".one").addClass("skills__mobile__slideDown")
+        $(".one").removeClass("skills__mobile__slideUp")
+        $(".htmlM").fadeOut(1000)
+    }
+    if($(".three").hasClass("skills__mobile__slideUp")){
+        $(".three").addClass("skills__mobile__slideDown")
+        $(".three").removeClass("skills__mobile__slideUp")
+        $(".jsM").fadeOut(1000)
+    }
+    if($(".two").hasClass("skills__mobile__slideUp")){
+        $(".two").addClass("skills__mobile__slideDown")
+        $(".two").removeClass("skills__mobile__slideUp")
+        $(".cssM").fadeOut(1000)
+    }
+    if($(".five").hasClass("skills__mobile__slideUp")){
+        $(".five").addClass("skills__mobile__slideDown")
+        $(".five").removeClass("skills__mobile__slideUp")
+        $(".cM").fadeOut(1000)
+    }
+    if($(".four").hasClass("skills__mobile__slideUp")){
+        $(".four").addClass("skills__mobile__slideDown")
+        $(".four").removeClass("skills__mobile__slideUp")
+        $(".bootstrapM").fadeOut(1000)
+    }else{
+        $(".four").addClass("skills__mobile__slideUp")
+        $(".bootstrapM").fadeIn(1000)
+    }
+}
+
+if(a==5){
+    if($(".one").hasClass("skills__mobile__slideUp")){
+        $(".one").addClass("skills__mobile__slideDown")
+        $(".one").removeClass("skills__mobile__slideUp")
+        $(".htmlM").fadeOut(1000)
+    }
+    if($(".three").hasClass("skills__mobile__slideUp")){
+        $(".three").addClass("skills__mobile__slideDown")
+        $(".three").removeClass("skills__mobile__slideUp")
+        $(".jsM").fadeOut(1000)
+    }
+    if($(".four").hasClass("skills__mobile__slideUp")){
+        $(".four").addClass("skills__mobile__slideDown")
+        $(".four").removeClass("skills__mobile__slideUp")
+        $(".bootstrapM").fadeOut(1000)
+    }
+    if($(".two").hasClass("skills__mobile__slideUp")){
+        $(".two").addClass("skills__mobile__slideDown")
+        $(".two").removeClass("skills__mobile__slideUp")
+        $(".cssM").fadeOut(1000)
+    }
+    if($(".five").hasClass("skills__mobile__slideUp")){
+        $(".five").addClass("skills__mobile__slideDown")
+        $(".five").removeClass("skills__mobile__slideUp")
+        $(".cM").fadeOut(1000)
+    }else{
+        $(".five").addClass("skills__mobile__slideUp")
+        $(".cM").fadeIn(1000)
+    }
+}
+return;
+}
+
+function closeSkills(){
+    if($(".one").hasClass("skills__mobile__slideUp")){
+        $(".one").addClass("skills__mobile__slideDown")
+        $(".one").removeClass("skills__mobile__slideUp")
+        $(".htmlM").fadeOut(1000)
+    }
+    if($(".three").hasClass("skills__mobile__slideUp")){
+        $(".three").addClass("skills__mobile__slideDown")
+        $(".three").removeClass("skills__mobile__slideUp")
+        $(".jsM").fadeOut(1000)
+    }
+    if($(".four").hasClass("skills__mobile__slideUp")){
+        $(".four").addClass("skills__mobile__slideDown")
+        $(".four").removeClass("skills__mobile__slideUp")
+        $(".bootstrapM").fadeOut(1000)
+    }
+    if($(".two").hasClass("skills__mobile__slideUp")){
+        $(".two").addClass("skills__mobile__slideDown")
+        $(".two").removeClass("skills__mobile__slideUp")
+        $(".cssM").fadeOut(1000)
+    }
+    if($(".five").hasClass("skills__mobile__slideUp")){
+        $(".five").addClass("skills__mobile__slideDown")
+        $(".five").removeClass("skills__mobile__slideUp")
+        $(".cM").fadeOut(1000)
+    }
+}
+
+
+
