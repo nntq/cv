@@ -1018,37 +1018,17 @@ nav ul li a {
 /*                                                                                      FOOTER */
 
 .footer{
-    height: 30vh;
-    width: 100%;
-    background-color: rgb(60, 58, 58);
-    position: relative;
+overflow: hidden;
+  background-color: rgb(60, 58, 58);
 }
 
 .footer__inner{
-    border: 2.5px solid black;
-    position: absolute;
-    filter: blur(1.5px);
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    width: 80%;
-    height: 80%;
-    background-image: url(img/architecture.jpg);
-    background-position: center center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    opacity: .49;
+    width: 80rem;
+    height: 10rem;
+    background: linear-gradient(to left top, transparent 50%, rgb(238, 232, 232) 50%);
 }
 
-.footer__title h3{
-    margin: 0;
-    color: white;
-    font-size: 3.8rem;
-}
 
-.footer__title{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-}
+
+
+
