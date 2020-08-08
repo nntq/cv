@@ -905,7 +905,7 @@ nav ul li a {
 
 
 
-.social{
+.social__content{
     height: 80vh;
     width: 100%;
     position: relative;
@@ -913,7 +913,7 @@ nav ul li a {
     background-color: rgb(238, 232, 232);
 }
 
-.social::after{
+.social__content::after{
     position: absolute;
     content: "";
     right: 0;
@@ -923,6 +923,7 @@ nav ul li a {
 }
 
 .social__inner{
+
     position: absolute;
     top: 15%;
     left: 10%;
@@ -1018,7 +1019,7 @@ nav ul li a {
 /*                                                                                      FOOTER */
 
 .footer{
-overflow: hidden;
+    overflow: hidden;
   background-color: rgb(60, 58, 58);
 }
 
