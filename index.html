@@ -14,27 +14,22 @@
 </head>
 
 <body>
-    <!-- MOBILE SKILLS INFO -->
-
-
-
-    <!-- END MOBILE SKILLS INFO -->
-    <section class="first__screen">
+    <section class="first__screen" id="first_screen">
         <div class="hr">
 
         </div>
         <div class="navigation__mobile__menu">
             <div class="mobile__menu">
-                <a href="#">
+                <a href="#" onclick="sScroll('#skills')">
                     <div class="skills__menu">skills</div>
                 </a>
-                <a href="#">
+                <a href="#" onclick="sScroll('#works')">
                     <div class="works__menu">works</div>
                 </a>
-                <a href="#">
+                <a href="#" onclick="sScroll('#about')">
                     <div class="about__menu">about</div>
                 </a>
-                <a href="#">
+                <a href="#" onclick="sScroll('#social')">
                     <div class="contact__menu">contact</div>
                 </a>
             </div>
@@ -47,7 +42,7 @@
             <div class="nav__bar">
                 <div class="logo">
                     <div class="name">
-                        <h1>MK</h1>
+                        <h1 onclick="sScroll('#first_screen')">MK</h1>
                     </div>
 
                 </div>
@@ -59,10 +54,10 @@
                 <div class="navigation">
                     <nav>
                         <ul>
-                            <li><a href="#">умения</a></li>
-                            <li><a href="#">работы</a></li>
-                            <li><a href="#">о себе</a></li>
-                            <li><a href="#">связь</a></li>
+                            <li><a href="#" onclick="sScroll('#skills')">умения</a></li>
+                            <li><a href="#" onclick="sScroll('#works')">работы</a></li>
+                            <li><a href="#" onclick="sScroll('#about')">о себе</a></li>
+                            <li><a href="#" onclick="sScroll('#social')">связь</a></li>
                         </ul>
                     </nav>
                 </div>
@@ -109,11 +104,11 @@
 
         <div class="scroll__btn">
             <div class="scroll__btn__figure">
-                <a href="#" onclick="sScroll('#statistic__title')"><span></span></a>
+                <a href="#" onclick="sScroll('#about')"><span></span></a>
             </div>
 
     </section>
-    <section class="about">
+    <section class="about" id="about">
         <!-- MOBILE -->
         <div class="about__inner__mobile">
             <div class="about__mobile__title">
@@ -160,7 +155,7 @@
             </div>
         </div>
     </section>
-    <section class="skills">
+    <section class="skills" id="skills">
         <!--                        SKILLS MOBILE -->
 
         <div class="skills__inner__mobile">
@@ -453,7 +448,7 @@
             </div>
         </div>
     </section>
-    <section class="works">
+    <section class="works" id="works">
         <!--WORKS -->
         <div class="works__inner__mobile">
 
@@ -539,7 +534,7 @@
         <div class="works__title">
             <h2>works</h2>
         </div>
-        <div class="works__inner__background animation">
+        <div class="works__inner__background">
             <div class="works__inner">
                 <div class="works__item" id="first_item">
                     <span>LO</span>
@@ -572,7 +567,7 @@
             </div>
         </div>
     </section>
-    <section class="social">
+    <section class="social" id="social">
         <!-- SOCIAL MOBILE -->
         <div class="social__inner__mobile">
             <div class="social__title__mobile">
