@@ -2768,14 +2768,14 @@
         background-size: contain;
         background-repeat: no-repeat;
         position: relative;
-        top: 10%;
+        top: 2%;
     }
 
     .about__mobile__text {
         padding: 10%;
         position: relative;
         font-size: 1.2rem;
-        top: 10%;
+        top: 3%;
         color: white;
         background-color: rgb(22, 20, 20);
         /* border: 1px solid white; */
