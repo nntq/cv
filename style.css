@@ -431,6 +431,7 @@ nav ul li a {
 .icon{
     font-size: 2.6rem;
     margin-right: 2%;
+    margin-left: 1%;
     color: rgb(55, 51, 51);
 }
 
@@ -449,8 +450,11 @@ nav ul li a {
 }
 
 .skills__stats__inner{
-    padding: 5%;
-    height: 100%;
+    /* padding: 13%; */
+    height: 70vh;
+    position: relative;
+    top: 50%;
+    transform: translateY(-40%)
 }
 
 .stat{
@@ -662,8 +666,7 @@ nav ul li a {
     border-right: 130vh solid transparent;
     animation-name: left_tri;
     animation-duration: 3s;
-    animation-delay: 1s;
-    transition: 2s linear all;
+    transition: all 2s ease-in-out;
     z-index: -1;
 }
 
@@ -673,13 +676,13 @@ nav ul li a {
     top: 60vh;
     right: 0;
     width: 0;
-	height: 0;
+    height: 0;
+    transition: all 2s ease-in-out;
     border-bottom: 75vh solid rgb(60, 58, 58);
     border-left: 200vh solid transparent;
     z-index: -2;
     animation-name: right_tri;
     animation-duration: 3s;
-    animation-delay: 1s;
 }
 
 @keyframes left_tri{
@@ -866,8 +869,7 @@ nav ul li a {
     opacity: .95;
     animation-name: up;
     animation-duration: 2s;
-    animation-delay: 1s;
-    transition: 2s ease-in-out;
+    transition: all 0 ease-in-out;
 }
 
 .works__item__over h3{

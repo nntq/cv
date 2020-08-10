@@ -51,6 +51,8 @@ document.getElementById("c").innerHTML = third[random(third.length)];
 
 
 function sScroll(id) {
+    $(".navigation__mobile__menu").addClass("navigation__mobile__menu__out");
+    $(".navigation__mobile__inner").removeClass("open");
     var offset = 0;
     $('html,body').animate({
         scrollTop: $(id).offset().top - offset
@@ -199,13 +201,14 @@ function fifthBtn() {
 }
 
 
-// var offset_top=$(".works__inner__background").offset();
-// $(window).scroll(function (event) {
-//     var scroll = $(window).scrollTop();
-//     if(scroll>=offset_top.top-1)
-//         $(".works__inner__background").addClass("animation");
-//     console.log(scroll);
-// });
+var offset_top=$(".skills__hover").offset();
+$(window).scroll(function (event) {
+    var scroll = $(window).scrollTop();
+    if(scroll>=offset_top.top+20)
+        $(".works__inner__background").addClass("animation");
+    console.log("offset"+offset_top);
+    console.log("scroll"+scroll);
+});
 
 // console.log(offset_top.top);
 
@@ -271,12 +274,6 @@ function crossInfoMobile(){
 
 function skillsInfo(a){
     $(".skills__mobile__info__inner").removeClass("skills__mobile__slideDown")
-    // if(($(".skills__mobile__info__inner").hasClass("skills__mobile__slideUp"))==0)
-    //     $(".skills__mobile__info__inner").addClass("skills__mobile__slideUp")
-    // else{
-    //     $(".skills__mobile__info__inner").addClass("skills__mobile__slideDown")
-    //     $(".skills__mobile__info__inner").removeClass("skills__mobile__slideUp")
-    // }
     if(a==1){
         if($(".two").hasClass("skills__mobile__slideUp")){
             $(".two").addClass("skills__mobile__slideDown")
